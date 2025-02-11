@@ -1,12 +1,12 @@
 # Hacker News Data Visualization
 
-This project retrieves top stories from the Hacker News API, processes the submission data, and visualizes the top 10 most active discussions based on the number of comments. The data visualization is created using Plotly and displays the titles of the top stories as clickable links along with their respective comment counts making it interactive.
+This project retrieves top stories from the Hacker News API, processes the submission data and visualizes the top 10 most active discussions based on the number of comments. The data visualization is created using Plotly and displays the titles of the top stories as clickable links along with their respective comment counts making it interactive.
 
 ## Project Overview
 
 - **Hacker News API**: Fetches the top stories and submission details using Hacker News' API.
 - **Data Processing**: Processes the submission data to filter out non-commentable (promotional) posts and sorts the submissions by comment count.
-- **Data Visualization**: Uses Plotly Express to create a bar chart that visualizes the top 10 most commented stories on Hacker News.
+- **Data Visualization**: Uses Plotly Express to create an interactive bar chart that visualizes the top 10 most commented stories on Hacker News.
 - **Testing**: Includes tests using Pytest to check if the Hacker News API responds correctly and if the data is in the expected format.
 
 ## Installation
