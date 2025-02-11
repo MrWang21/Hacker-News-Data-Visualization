@@ -45,4 +45,5 @@ for submission_dict in submission_dicts[:10]:
 title = "Top 10 most active discussions on Hacker News"
 labels={'x': 'Article Name','y':'Comments'}
 fig = px.bar(x=submission_link,y=comments,labels=labels, title=title)
+fig.update_traces(marker=dict(color='black', opacity=0.75)) 
 fig.show()
