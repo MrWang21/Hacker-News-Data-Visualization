@@ -16,6 +16,7 @@ To run this project, ensure you have Python 3.9.6 installed, and install the req
 1. Clone the repository:
     ```bash
     git clone https://github.com/MrWang21/Hacker-News-Data-Visualizer.git
+    cd Hacker-News-Data-Visualizer
     ```
 
 2. Install the dependencies:
@@ -58,6 +59,8 @@ The project includes Pytest tests to ensure the API works as expected and the da
 ## Example Output
 
 When you run the script, a bar chart will appear, showing the **top 10 most active discussions** on Hacker News based on the number of comments. Each bar represents a story, and clicking on the title will redirect you to the specific Hacker News post.
+
+![Example Bar Chart](src/example_output.png)
 
 ## Dependencies
 
