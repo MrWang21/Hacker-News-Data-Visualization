@@ -15,8 +15,7 @@ To run this project, ensure you have Python 3.9.6 installed, and install the req
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/MrWang21/Hacker-News-Data-Visualizer.git
-    cd Hacker-News-Data-Visualizer
+    git clone https://github.com/MrWang21/Hacker-News-Data-Visualization.git
     ```
 
 2. Install the dependencies:
